@@ -17,7 +17,7 @@ spec:
       containers:
         - name: hello-world-demo4
           image: hello-world-demo4:latest
-          imagePullPolicy: Never
+          imagePullPolicy: Always
           ports:
             - containerPort: 8090
 ---
