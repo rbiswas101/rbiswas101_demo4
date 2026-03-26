@@ -6,6 +6,10 @@ on:
       - main
   workflow_dispatch:    # enables "Run workflow" button in GitHub UI
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   build-and-update:
     runs-on: ubuntu-latest
