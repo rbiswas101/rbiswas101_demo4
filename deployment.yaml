@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: hello-world-demo4
-          image: ghcr.io/rbiswas101/hello-world-demo4:747a3ab
+          image: ghcr.io/rbiswas101/hello-world-demo4:7677292
           imagePullPolicy: Always
           ports:
             - containerPort: 8090
