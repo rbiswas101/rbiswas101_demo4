@@ -16,7 +16,7 @@ def elapsed():
 
 @app.route('/')
 def root():
-    return "Hello World (Python) - demo4-argocd-1 ! (up %s)\n" % elapsed()
+    return "Hello World (Python) - demo4-argocd-2 ! (up %s)\n" % elapsed()
 
 
 if __name__ == "__main__":
